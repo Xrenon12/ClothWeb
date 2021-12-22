@@ -1,0 +1,102 @@
+@media (max-width: 920px) {
+	.container__man img, .container__women img {
+		display: none;
+	}
+	.sales-container {
+		flex-direction: column;
+	}
+	.sales__text h1 {
+		padding-bottom: 20px;
+		margin-right: 0;
+	}
+	.sales__input-email > input {
+		width: 70%;
+	}
+	.sales__input-email > button {
+		width: 29%;
+	}
+	.sales__input-email {
+    	padding-bottom: 60px;
+    	width: 498px;
+	}
+	.sales__input {
+		max-width: none;
+	}
+}
+@media (min-width: 768px) {
+	.footer__burger {
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.footer__left {
+		display: none;
+	}
+	.footer__right {
+		margin-right: 20px;
+	}
+	.footer__logo {
+		justify-content: normal;
+	}
+	.footer__nav {
+		grid-template-columns: 0.4fr 5fr 2fr 0.5fr;
+	}
+	.footer__burger {
+		display: block;
+	}
+
+	.sales__content {
+		flex-direction: column-reverse;
+	}
+	.sales__left {
+		width: auto;
+		text-align: center;
+	}
+	.sales__left h1 {
+		margin-bottom: 5px
+	}
+	.sales__left h2 {
+		margin-bottom: 10px;
+		font-size: 45px;
+		line-height: 55px;
+	}
+	.sales__left button {
+		margin-bottom: 32px
+	}
+	.sales__right {
+		width: auto;
+		text-align: center;
+	}
+	.sales__right h2 {
+		line-height: 31px;
+	}
+}
+@media (max-width: 560px) {
+	.copyright-container > a {
+		font-size: 9px;
+	}
+	.sales__text > h1 {
+		font-size: 18px;
+	}
+	.sales__input-email {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.sales__input-email > input, .sales__input-email > button {
+		width: 100%
+	}
+}
+@media (max-width: 430px) {
+	.model__block {
+    	margin: 0px auto 40px auto;
+    }
+}
+@media (max-width: 390px) {
+	.footer__right {
+		display: none;
+	}
+	.footer__nav {
+		grid-template-columns: 0.4fr 5fr 0.5fr;
+	}
+}
